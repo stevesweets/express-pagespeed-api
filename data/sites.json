@@ -1,0 +1,20 @@
+[
+	{
+		"title": "Hotel Internet Marketing",
+		"response_code": 0,
+		"url": "https://www.hotel-internet-marketing.com",
+		"speed": 10
+	},
+	{
+		"title": "BBC",
+		"response_code": 0,
+		"url": "https://www.bbc.co.uk",
+		"speed": 5
+	},
+	{
+		"title": "Google UK",
+		"response_code": 0,
+		"url": "https://www.google.co.uk",
+		"speed": 4
+	}
+]
