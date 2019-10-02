@@ -33,6 +33,7 @@ const update_data = new cron({
 		}
 
 		fs.writeFileSync(data_file, JSON.stringify(data));
+		console.log('abc');
 	},
 	start: false,
 	timeZone: 'Europe/London',
@@ -45,6 +46,6 @@ app.get('/sites', (request, response) => {
 	response.send(JSON.parse(fs.readFileSync('data/sites.json')));
 })
 
-module.exports = app.listen(8080, () => {
-	console.log('ready on port 8080');
+module.exports = app.listen(80, () => {
+	console.log('ready on port 80');
 });
